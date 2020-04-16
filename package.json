@@ -1,7 +1,7 @@
 {
   "name": "darkreader",
   "version": "4.8.7",
-  "description": "Dark theme for every website",
+  "description": "Dark Reader Chrome and Firefox extension",
   "scripts": {
     "api": "node -e \"require('./tasks/bundle-api')()\"",
     "code-style": "eslint --fix 'src/**/*.ts' 'src/**/*.tsx' 'tasks/**/*.js' 'tests/**/*.ts' 'index.d.ts'",
@@ -49,5 +49,6 @@
     "typescript": "3.7.5",
     "yazl": "2.5.1",
     "ws": "7.2.1"
-  }
+  },
+  "keywords": []
 }
